@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Position Details -->
+    <TextView
+        android:id="@+id/textViewPseudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pseudo: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude: "
+        android:textSize="16sp" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="8dp">
+
+        <Button
+            android:id="@+id/btnOpenMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open in Maps"
+            android:layout_marginEnd="8dp"
+            />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            />
+    </LinearLayout>
+</LinearLayout>
